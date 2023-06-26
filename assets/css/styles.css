@@ -848,6 +848,10 @@ img {
   .footer_container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .skills__container {
+    padding: 0 3rem;
+  }
 }
 
 /* For large devices */
@@ -898,6 +902,49 @@ img {
 
   .nav__menu {
     margin-left: auto;
+  }
+
+  .change-theme {
+    display: block;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .home__container {
+    row-gap: 5rem;
+  }
+
+  .home__content {
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+  }
+
+  .home__blob {
+    width: 270px;
+  }
+
+  .home__scroll {
+    display: block;
+  }
+
+  .home__scroll-button {
+    margin-left: 3rem;
+  }
+
+  .about__description {
+    margin: 0 4rem 3rem;
+  }
+
+  .qualification__tabs {
+    justify-content: center;
+  }
+
+  .qualification__button {
+    margin: 0 var(--mb-1);
+  }
+
+  .qualification__sections {
+    grid-template-columns: .5fr;
   }
 }
 
