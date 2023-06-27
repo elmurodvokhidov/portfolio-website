@@ -946,6 +946,35 @@ img {
   .qualification__sections {
     grid-template-columns: .5fr;
   }
+
+  .portfolio_img {
+    width: 320px;
+  }
+
+  .portfolio_content {
+    align-items: center;
+  }
+
+  .footer_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer_bg {
+    padding: 3rem 0 3.5rem;
+  }
+
+  .footer_links {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+
+  .footer_social {
+    justify-self: flex-end;
+  }
+
+  .footer_copy {
+    margin-top: 4.5rem;
+  }
 }
 
 /* For medium devices */
