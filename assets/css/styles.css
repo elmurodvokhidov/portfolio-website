@@ -978,3 +978,40 @@ img {
 }
 
 /* For medium devices */
+@media screen and (min-width: 1024px) {
+
+  .header,
+  .main,
+  .footer_container {
+    padding: 0;
+  }
+
+  .home__blob {
+    width: 320px;
+  }
+
+  .home__social {
+    transform: translateX(-6rem);
+  }
+
+  .portfolio_content {
+    column-gap: 5rem;
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: -4.5rem;
+  }
+
+  .contact_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact_form {
+    width: 460px;
+  }
+
+  .contact_inputs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
