@@ -492,19 +492,19 @@ img {
 }
 
 .skills__php {
-  width: 80%;
+  width: 0%;
 }
 
 .skills__node {
-  width: 80%;
+  width: 0%;
 }
 
 .skills__firebase {
-  width: 60%;
+  width: 15%;
 }
 
 .skills__python {
-  width: 85%;
+  width: 10%;
 }
 
 .skills__close .skills__list {
